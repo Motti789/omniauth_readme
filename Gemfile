@@ -38,7 +38,15 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '~> 2.1'
 
+
+
   gem 'pry'
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
+
+gem "omniauth", "~> 2.0"
+gem "omniauth-github", "~> 2.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "dotenv-rails", "~> 2.7"
